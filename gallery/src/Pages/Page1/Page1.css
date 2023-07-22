@@ -1,0 +1,42 @@
+
+
+.gallery-container{
+    margin-top: 3rem;
+}
+
+
+.search{
+    padding: 10px;
+    border: none;
+    outline: 2px solid rgb(95, 204, 255);
+    border-radius: 3px;
+    width: 50vw;
+}
+
+.search-btn{
+    background-color: rgb(43, 163, 43);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.col{
+    display: flex;
+    width: 150px;
+    margin: 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.col :hover{
+    transform: scale(3);
+    transition-duration: 1s;
+    cursor: pointer;
+}
